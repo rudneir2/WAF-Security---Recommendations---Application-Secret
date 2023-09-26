@@ -7,7 +7,7 @@ This is what we have in the architcture below:
 
 A hybrid environment with on-premises, Azure and Office 365 services, that serves a web solution running on Azure, that store data on Azure Storage and communicate with some VMs that holds application code.
 
-
+![image](https://github.com/rudneir2/WAF-Security---Recommendations---Application-Secret/assets/97529152/7a137bc5-58e6-4883-acd9-9cd31bbfbbd5)
 
 The main component in this scenario are:
 
