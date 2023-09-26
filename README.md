@@ -22,7 +22,7 @@ The main component in this scenario are:
 
 Now that we understand our scenario, let's check it out what WAF Security recommends to you regarding "Application Secret". Following we have an architecture with some of the Azure Security services highlighted (blue box) and some of the Azure security services that may be considered to complement the solution. After the architecture diagram, you will have detailed information regarding every security solution described in the diagram.
 
-<diagram>
+![image](https://github.com/rudneir2/WAF-Security---Recommendations---Application-Secret/assets/97529152/c616382a-7948-48ad-85a9-9742be40daec)
 
 in the diagram above we have some components that helps in the pre-breach and pos-breach phases of a cybersecurity attack.
 
@@ -44,7 +44,7 @@ in the diagram above we have some components that helps in the pre-breach and po
 
 10. Microsoft Defender for Cloud includes a module that helps you collect information from multiple Azure resources, including Azure Key Vault, and then receive Alerts and Recommendations to keep your environment secure.
 
-From this point ... we should come with the current WAF Security content in the section "Application Secret".
+**From this point ... we should come with the current WAF Security content in the section "Application Secret".**
 
 
 
