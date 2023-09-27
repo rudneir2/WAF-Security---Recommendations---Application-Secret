@@ -19,7 +19,7 @@ The main component in this scenario are:
 6. All Applications, including Azure Web apps, Azure Storage are authenticated through Azure AD. Azure AD is syncronized with local ADDS (Kerberos based).
 
 **NOTE:**
-Any actor (user, developer, person) that may have access in somehow to the environment may be a potential threat actor, by having its credentials stolen and starting any type of attack, like lateral movement, privilege escalation, or remote access to any resource on Azure.
+Any actor (user, developer, internet user) that may have access in somehow to the environment may be a potential threat actor, by having its credentials stolen and starting any type of attack, like lateral movement, privilege escalation, or remote access to any resource on Azure.
 
 ## Adding Security Recommendations
 
