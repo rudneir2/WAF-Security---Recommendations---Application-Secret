@@ -18,6 +18,9 @@ The main component in this scenario are:
 5. These Azure VMs have Azure VM disks that holds many important data.
 6. All Applications, including Azure Web apps, Azure Storage are authenticated through Azure AD. Azure AD is syncronized with local ADDS (Kerberos based).
 
+**NOTE:**
+Any actor (user, developer, person) that may have access in somehow to the environment may be a potential threat actor, by having its credentials stolen and starting any type of attack, like lateral movement, privilege escalation, or remote access to any resource on Azure.
+
 ## Adding Security Recommendations
 
 Now that we understand our scenario, let's check it out what WAF Security recommends to you regarding "Application Secret". Following we have an architecture with some of the Azure Security services highlighted (blue box) and some of the Azure security services that may be considered to complement the solution. After the architecture diagram, you will have detailed information regarding every security solution described in the diagram.
