@@ -48,7 +48,10 @@ in the diagram above we have some components that helps in the pre-breach and po
 10. Microsoft Defender for Cloud includes a module that helps you collect information from multiple Azure resources, including Azure Key Vault, and then receive Alerts and Recommendations to keep your environment secure.
 
 **From this point ... we should come with the current WAF Security content in the section "Application Secret".**
+https://review.learn.microsoft.com/en-us/azure/well-architected/security/application-secrets?branch=collab-waf-2-0-1
 
+### DISCLAIMER
+**This is only a draft with a recommendation to have WAF 2.0 Security doc based on a common IT environment context and explanation about Security recommendations on top of some architecture diagrams for a better understanding. It is not a final version. Diagrams, its colors, text information are all draft and suggestions, that may be changed and refined.**
 
 
 
