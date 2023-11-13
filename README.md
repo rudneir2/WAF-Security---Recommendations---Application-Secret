@@ -1,15 +1,32 @@
-# WAF Security
-## Recommendations - Application-Secret
+# WAF20 - Application Secret
 
-in this scenario we have an IT architecture with a workload which we may apply several recommendations described in this section (Application Secret). The diagrams below will help you understand when to consider some of the best practices for Azure Security regarding keys, secrets and encryption and how to apply it.
+**NOTE:** 
+This content below is supposed to be part of the WAF 20 document, to be embedded in the chapter "WAF > Recommendations > SE:09 Application Secret".
 
-This is what we have in the architcture below:
+[https://review.learn.microsoft.com/en-us/azure/well-architected/security/segmentation?branch=release-waf-2-0-1](https://review.learn.microsoft.com/en-us/azure/well-architected/security/application-secrets?branch=release-waf-2-0-1)
 
-A hybrid environment with on-premises, Azure and Office 365 services, that serves a web solution running on Azure, that store data on Azure Storage and communicate with some VMs that holds application code.
+in this scenario, we have an IT architecture with some examples which we may apply several recommendations described in this section. The diagram below will help you understand when to consider some of the best practices for Azure Security regarding keys, secrets, and encryption and how to apply them.
 
-![image](https://github.com/rudneir2/WAF-Security---Recommendations---Application-Secret/assets/97529152/7a137bc5-58e6-4883-acd9-9cd31bbfbbd5)
+IMAGE
 
-The main component in this scenario are:
+Let's consider the following in the image above:
+
+1. x
+2. x
+3. x
+
+
+
+**NOTE:**
+If you'd like to understand more about any solution described in the diagram, including acronyms, please refer to this table of contents, from the **Baseline chapter**.
+(table to be built)
+
+**This content above is intended to be embedded with current WAF 20 draft content, at the time of this writing (Nov 2023), still in development**
+
+
+
++++++++++++++ to be deleted +++++++++++++++
+
 
 1. the Azure Web App that contains the web front end with customer main web site, accessed by the company's end users (A) and also by External Developers that maintin the website (B).
 2. the Azure Storage Account with blob service to store web site objects, also accessed by External Developers (B).
@@ -18,8 +35,6 @@ The main component in this scenario are:
 5. These Azure VMs have Azure VM disks that holds many important data.
 6. All Applications, including Azure Web apps, Azure Storage are authenticated through Azure AD. Azure AD is syncronized with local ADDS (Kerberos based).
 
-**NOTE:**
-Any actor (user, developer, internet user) that may have access in somehow to the environment may be a potential threat actor, by having its credentials stolen and starting any type of attack, like lateral movement, privilege escalation, or remote access to any resource on Azure.
 
 ## Adding Security Recommendations
 
