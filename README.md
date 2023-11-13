@@ -40,7 +40,6 @@ If you'd like to understand more about any solution described in the diagram, in
 
 Now that we understand our scenario, let's check it out what WAF Security recommends to you regarding "Application Secret". Following we have an architecture with some of the Azure Security services highlighted (blue box) and some of the Azure security services that may be considered to complement the solution. After the architecture diagram, you will have detailed information regarding every security solution described in the diagram.
 
-![image](https://github.com/rudneir2/WAF-Security---Recommendations---Application-Secret/assets/97529152/c616382a-7948-48ad-85a9-9742be40daec)
 
 in the diagram above we have some components that helps in the pre-breach and pos-breach phases of a cybersecurity attack.
 
