@@ -11,7 +11,7 @@ IMAGE
 
 Let's consider the following in the image above:
 
-1. x
+1. through Encryption services we may add encryption to Azure VM disk and control this encryption keys with Azure Key Vault services, protecting data residing in Virtual Machine disks to be compromised by the bad actors.
 2. x
 3. x
 
@@ -25,7 +25,7 @@ If you'd like to understand more about any solution described in the diagram, in
 
 
 
-+++++++++++++ to be deleted +++++++++++++++
++++++++++++++ to be deleted all below +++++++++++++++
 
 
 1. the Azure Web App that contains the web front end with customer main web site, accessed by the company's end users (A) and also by External Developers that maintin the website (B).
@@ -44,7 +44,7 @@ Now that we understand our scenario, let's check it out what WAF Security recomm
 
 in the diagram above we have some components that helps in the pre-breach and pos-breach phases of a cybersecurity attack.
 
-1. through Encryption services we may add encryption to Azure VM disk and control this encryption keys with Azure Key Vault services.
+
 
 2. key vault may hold keys, secrets and certificates for multiple Azure solution, including also Storage keys. Key vault service contains different tiers of service, and we are available to build your dedicated HSM, if your security needs requires for it. Security rotation is another feature available in the Key Vault.
 
