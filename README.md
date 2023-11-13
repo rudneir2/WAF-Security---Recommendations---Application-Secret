@@ -7,7 +7,7 @@ This content below is supposed to be part of the WAF 20 document, to be embedded
 
 in this scenario, we have an IT architecture with some examples which we may apply several recommendations described in this section. The diagram below will help you understand when to consider some of the best practices for Azure Security regarding keys, secrets, and encryption and how to apply them.
 
-IMAGE
+![image](https://github.com/rudneir2/WAF-Security---Recommendations---Application-Secret/assets/97529152/ed121a2e-3366-42a5-b1f7-da41fc3d9e1c)
 
 Let's consider the following in the image above:
 
