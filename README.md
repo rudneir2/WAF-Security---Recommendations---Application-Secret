@@ -34,7 +34,7 @@ If you'd like to understand more about any solution described in the diagram, in
 **This content above is intended to be embedded with current WAF 20 draft content, at the time of this writing (Nov 2023), still in development**
 
 ### DISCLAIMER
-**This is only a draft with a recommendation to have WAF 2.0 Security doc based on a common IT environment context and explanation about Security recommendations on top of some architecture diagrams for a better understanding. It is not a final version. Diagrams, its colors, text information are all draft and suggestions, that may be changed and refined.**
+This is only a draft with a recommendation to have a WAF 2.0 Security doc based on a common IT environment context and an explanation of Security recommendations on top of some architecture diagrams for a better understanding. It is not a final version. Diagrams, colors, and text information are all drafts and suggestions, that may be changed and refined.
 
 
 
